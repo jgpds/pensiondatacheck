@@ -1,0 +1,21 @@
+Package: pensiondatacheck
+Type: Package
+Title: pensiondatacheck: Efficient and Effective Critical Analysis of Pension Fund Data
+Version: 0.1.0
+Author: João Guilherme Pereira dos Santos
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Provide efficient and effective critical analysis of pension fund
+    data using R. It enables analysts to compare two datasets from different
+    time points, identifying changes in records, entries, and exits, and
+    reporting monetary variations by considering indices and adjustment periods.
+    This package ensures data integrity and quality, facilitating informed
+    decision-making and improving the reliability of pension fund data 
+    management. Additionally, it generates a comprehensive report of all
+    findings in an Excel file at the end of the processing.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
