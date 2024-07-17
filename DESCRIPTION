@@ -12,7 +12,7 @@ Description: Provide efficient and effective critical analysis of pension fund
     decision-making and improving the reliability of pension fund data 
     management. Additionally, it generates a comprehensive report of all
     findings in an Excel file at the end of the processing.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2

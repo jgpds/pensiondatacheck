@@ -5,8 +5,6 @@
 #' @return The output from \code{\link{print}}
 #' @export
 #'
-#' @import readxl
-#' @import rbcb
 #' @examples
 #' hello("John")
 #' \dontrun{
