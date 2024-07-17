@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @import readxl
+#' @import rbcb
 #' @examples
 #' hello("John")
 #' \dontrun{
@@ -15,4 +16,3 @@
 hello <- function(x) {
   print(paste0("Hello ", x," world!"))
 }
-
