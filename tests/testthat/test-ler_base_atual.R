@@ -18,11 +18,11 @@ test_that("ler_base_atual() reads an Excel file", {
   unlink(temp_file)
 })
 
-test_that("ler_base_atual() errors if file does not exist.", {
+test_that("ler_base_atual() errors if file does not exist", {
   expect_error(ler_base_atual("non_existent_file.xlsx", sheet = 1))
 })
 
-test_that("ler_base_atual() errors if sheet does not exist.", {
+test_that("ler_base_atual() errors if sheet does not exist", {
   temp_file <- tempfile(fileext = ".xlsx")
   write.xlsx(data.frame(a = 1:3, b = letters[1:3]), temp_file)
 
